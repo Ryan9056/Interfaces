@@ -27,7 +27,7 @@ public class BigRectLister {
         }
         for (int i = 0; i < filtered.size(); i++) {
             Rectangle temp = new Rectangle(filtered.get(i));
-            System.out.println(temp.height + " " + temp.width);
+            System.out.println("Height: " + temp.height + " Width: " + temp.width);
         }
 
 
